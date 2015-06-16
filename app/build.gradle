@@ -18,7 +18,6 @@ android {
     }
 
     sourceSets {
-                main.java.srcDirs += 'C:/Users/Alex/Documents/GitHub/PD-classes'
+        main.java.srcDirs += 'C:/Users/Alex/Documents/GitHub/PD-classes'
     }
-
 }
