@@ -1,5 +1,9 @@
-Pixel Dungeon
+Omega Pixel Dungeon
 =============
+
+A "Work In Progress" of a mod for Pixel Dungeon:
+
+_________________________________________________________________________
 
 Traditional roguelike game with pixel-art graphics and simple interface.
 
