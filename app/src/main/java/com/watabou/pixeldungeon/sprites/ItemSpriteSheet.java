@@ -177,4 +177,12 @@ public class ItemSpriteSheet {
     public static final int WEIGHT = 123;
     public static final int BOMB = 124;
     public static final int HONEYPOT = 125;
+
+    //Firearms
+    public static final int HANDGUN = 128;
+
+    //TODO Make projectiles their own sprite sheet
+
+    //Projectiles
+    public static final int BULLET = 129;
 }

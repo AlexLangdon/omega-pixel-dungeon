@@ -71,6 +71,7 @@ public class Item implements Bundlable {
 
     public static final String AC_DROP = "DROP";
     public static final String AC_THROW = "THROW";
+    public static final String AC_FIRE = "FIRE";
 
     public String defaultAction;
 
@@ -137,6 +138,11 @@ public class Item implements Bundlable {
 
         } else if (action.equals(AC_THROW)) {
 
+            doThrow(hero);
+
+        } else if (action.equals(AC_FIRE)) {
+
+            //TODO Change doThrow to doShoot
             doThrow(hero);
 
         }

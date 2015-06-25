@@ -33,6 +33,7 @@ import com.watabou.pixeldungeon.items.weapon.melee.Knuckles;
 import com.watabou.pixeldungeon.items.weapon.melee.ShortSword;
 import com.watabou.pixeldungeon.items.weapon.missiles.Dart;
 import com.watabou.pixeldungeon.items.weapon.missiles.Boomerang;
+import com.watabou.pixeldungeon.items.weapon.firearms.Handgun;
 import com.watabou.pixeldungeon.ui.QuickSlot;
 import com.watabou.utils.Bundle;
 
@@ -134,9 +135,9 @@ public enum HeroClass {
         hero.STR = hero.STR + 1;
 
         (hero.belongings.weapon = new ShortSword()).identify();
-        new Dart(8).identify().collect();
+        new Handgun(10).identify().collect();
 
-        QuickSlot.primaryValue = Dart.class;
+        QuickSlot.primaryValue = Handgun.class;
 
         new PotionOfStrength().setKnown();
     }

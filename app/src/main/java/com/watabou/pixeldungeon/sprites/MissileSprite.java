@@ -21,6 +21,7 @@ import com.watabou.pixeldungeon.DungeonTilemap;
 import com.watabou.pixeldungeon.items.Item;
 import com.watabou.noosa.tweeners.PosTweener;
 import com.watabou.noosa.tweeners.Tweener;
+import com.watabou.pixeldungeon.items.weapon.firearms.FirearmWeapon;
 import com.watabou.utils.Callback;
 import com.watabou.utils.PointF;
 
@@ -38,6 +39,8 @@ public class MissileSprite extends ItemSprite implements Tweener.Listener {
     public void reset(int from, int to, Item item, Callback listener) {
         if (item == null) {
             reset(from, to, 0, null, listener);
+        } else if ( item instanceof FirearmWeapon){
+            reset(from, to, ((FirearmWeapon) item).getProjectileImage(), item.glowing(), listener);
         } else {
             reset(from, to, item.image(), item.glowing(), listener);
         }
@@ -56,7 +59,10 @@ public class MissileSprite extends ItemSprite implements Tweener.Listener {
         PointF d = PointF.diff(dest, point());
         speed.set(d).normalize().scale(SPEED);
 
-        if (image == 31 || image == 108 || image == 109 || image == 110) {
+
+        //TODO Make an array or some bool identifier if a sprite is at a 45 degree angle
+
+        if (image == 31 || image == 108 || image == 109 || image == 110 || image == 129) {
 
             angularSpeed = 0;
             angle = 135 - (float) (Math.atan2(d.x, d.y) / 3.1415926 * 180);

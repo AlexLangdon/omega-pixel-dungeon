@@ -77,6 +77,7 @@ import com.watabou.pixeldungeon.items.scrolls.ScrollOfMagicMapping;
 import com.watabou.pixeldungeon.items.scrolls.ScrollOfRecharging;
 import com.watabou.pixeldungeon.items.scrolls.ScrollOfUpgrade;
 import com.watabou.pixeldungeon.items.wands.Wand;
+import com.watabou.pixeldungeon.items.weapon.firearms.FirearmWeapon;
 import com.watabou.pixeldungeon.items.weapon.melee.MeleeWeapon;
 import com.watabou.pixeldungeon.items.weapon.missiles.MissileWeapon;
 import com.watabou.pixeldungeon.levels.Level;
@@ -242,7 +243,7 @@ public class Hero extends Char {
         return belongings.armor == null ? 0 : belongings.armor.tier;
     }
 
-    public boolean shoot(Char enemy, MissileWeapon wep) {
+    public boolean throwMissile(Char enemy, MissileWeapon wep) {
 
         rangedWeapon = wep;
         boolean result = attack(enemy);
