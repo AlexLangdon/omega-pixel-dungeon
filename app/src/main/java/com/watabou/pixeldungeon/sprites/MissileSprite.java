@@ -21,7 +21,7 @@ import com.watabou.pixeldungeon.DungeonTilemap;
 import com.watabou.pixeldungeon.items.Item;
 import com.watabou.noosa.tweeners.PosTweener;
 import com.watabou.noosa.tweeners.Tweener;
-import com.watabou.pixeldungeon.items.weapon.firearms.FirearmWeapon;
+import com.watabou.pixeldungeon.items.weapon.ranged.firearms.FirearmWeapon;
 import com.watabou.utils.Callback;
 import com.watabou.utils.PointF;
 
@@ -36,11 +36,12 @@ public class MissileSprite extends ItemSprite implements Tweener.Listener {
         originToCenter();
     }
 
+   /* else if ( item instanceof FirearmWeapon){
+        reset(from, to, ((FirearmWeapon) item).getProjectileImage(), item.glowing(), listener);*/
+
     public void reset(int from, int to, Item item, Callback listener) {
         if (item == null) {
             reset(from, to, 0, null, listener);
-        } else if ( item instanceof FirearmWeapon){
-            reset(from, to, ((FirearmWeapon) item).getProjectileImage(), item.glowing(), listener);
         } else {
             reset(from, to, item.image(), item.glowing(), listener);
         }

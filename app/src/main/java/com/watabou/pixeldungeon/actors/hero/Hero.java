@@ -77,9 +77,10 @@ import com.watabou.pixeldungeon.items.scrolls.ScrollOfMagicMapping;
 import com.watabou.pixeldungeon.items.scrolls.ScrollOfRecharging;
 import com.watabou.pixeldungeon.items.scrolls.ScrollOfUpgrade;
 import com.watabou.pixeldungeon.items.wands.Wand;
-import com.watabou.pixeldungeon.items.weapon.firearms.FirearmWeapon;
 import com.watabou.pixeldungeon.items.weapon.melee.MeleeWeapon;
-import com.watabou.pixeldungeon.items.weapon.missiles.MissileWeapon;
+import com.watabou.pixeldungeon.items.weapon.ranged.RangedWeapon;
+import com.watabou.pixeldungeon.items.weapon.ranged.firearms.FirearmWeapon;
+import com.watabou.pixeldungeon.items.weapon.ranged.missiles.MissileWeapon;
 import com.watabou.pixeldungeon.levels.Level;
 import com.watabou.pixeldungeon.levels.Terrain;
 import com.watabou.pixeldungeon.levels.features.AlchemyPot;
@@ -153,7 +154,7 @@ public class Hero extends Char {
 
     public boolean restoreHealth = false;
 
-    public MissileWeapon rangedWeapon = null;
+    public RangedWeapon rangedWeapon = null;
     public Belongings belongings;
 
     public int STR;
@@ -244,6 +245,15 @@ public class Hero extends Char {
     }
 
     public boolean throwMissile(Char enemy, MissileWeapon wep) {
+
+        rangedWeapon = wep;
+        boolean result = attack(enemy);
+        rangedWeapon = null;
+
+        return result;
+    }
+
+    public boolean fireFirearm(Char enemy, FirearmWeapon wep) {
 
         rangedWeapon = wep;
         boolean result = attack(enemy);

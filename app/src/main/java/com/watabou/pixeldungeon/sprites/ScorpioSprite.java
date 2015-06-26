@@ -20,7 +20,7 @@ package com.watabou.pixeldungeon.sprites;
 import com.watabou.pixeldungeon.levels.Level;
 import com.watabou.noosa.TextureFilm;
 import com.watabou.pixeldungeon.Assets;
-import com.watabou.pixeldungeon.items.weapon.missiles.Dart;
+import com.watabou.pixeldungeon.items.weapon.ranged.missiles.Dart;
 import com.watabou.utils.Callback;
 
 public class ScorpioSprite extends MobSprite {

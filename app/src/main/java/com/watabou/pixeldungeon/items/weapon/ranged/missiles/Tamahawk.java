@@ -15,50 +15,57 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.items.weapon.missiles;
+package com.watabou.pixeldungeon.items.weapon.ranged.missiles;
 
+import com.watabou.pixeldungeon.actors.buffs.Bleeding;
+import com.watabou.pixeldungeon.actors.buffs.Buff;
 import com.watabou.pixeldungeon.items.Item;
+import com.watabou.pixeldungeon.actors.Char;
 import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 import com.watabou.utils.Random;
 
-public class Shuriken extends MissileWeapon {
+public class Tamahawk extends MissileWeapon {
 
     {
-        name = "shuriken";
-        image = ItemSpriteSheet.SHURIKEN;
+        name = "tomahawk";
+        image = ItemSpriteSheet.TOMAHAWK;
 
-        STR = 13;
+        STR = 17;
 
-        MIN = 2;
-        MAX = 6;
-
-        DLY = 0.5f;
+        MIN = 4;
+        MAX = 20;
     }
 
-    public Shuriken() {
+    public Tamahawk() {
         this(1);
     }
 
-    public Shuriken(int number) {
+    public Tamahawk(int number) {
         super();
         quantity = number;
     }
 
     @Override
+    public void proc(Char attacker, Char defender, int damage) {
+        super.proc(attacker, defender, damage);
+        Buff.affect(defender, Bleeding.class).set(damage);
+    }
+
+    @Override
     public String desc() {
         return
-                "Star-shaped pieces of metal with razor-sharp blades do significant damage " +
-                        "when they hit a target. They can be thrown at very high rate.";
+                "This throwing axe is not that heavy, but it still " +
+                        "requires significant strength to be used effectively.";
     }
 
     @Override
     public Item random() {
-        quantity = Random.Int(5, 15);
+        quantity = Random.Int(5, 12);
         return this;
     }
 
     @Override
     public int price() {
-        return 15 * quantity;
+        return 20 * quantity;
     }
 }

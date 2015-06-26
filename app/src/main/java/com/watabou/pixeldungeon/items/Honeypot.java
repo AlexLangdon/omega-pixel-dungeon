@@ -67,7 +67,7 @@ public class Honeypot extends Item {
     }
 
     @Override
-    protected void onThrow(int cell) {
+    public void onThrow(int cell) {
         if (Level.pit[cell]) {
             super.onThrow(cell);
         } else {

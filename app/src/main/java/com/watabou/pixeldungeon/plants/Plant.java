@@ -118,7 +118,7 @@ public class Plant implements Bundlable {
         }
 
         @Override
-        protected void onThrow(int cell) {
+        public void onThrow(int cell) {
             if (Dungeon.level.map[cell] == Terrain.ALCHEMY || Level.pit[cell]) {
                 super.onThrow(cell);
             } else {

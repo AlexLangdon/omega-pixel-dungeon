@@ -15,32 +15,32 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.items.weapon.missiles;
+package com.watabou.pixeldungeon.items.weapon.ranged.missiles;
 
-import com.watabou.pixeldungeon.actors.buffs.Bleeding;
 import com.watabou.pixeldungeon.actors.buffs.Buff;
 import com.watabou.pixeldungeon.items.Item;
 import com.watabou.pixeldungeon.actors.Char;
+import com.watabou.pixeldungeon.actors.buffs.Cripple;
 import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 import com.watabou.utils.Random;
 
-public class Tamahawk extends MissileWeapon {
+public class Javelin extends MissileWeapon {
 
     {
-        name = "tomahawk";
-        image = ItemSpriteSheet.TOMAHAWK;
+        name = "javelin";
+        image = ItemSpriteSheet.JAVELIN;
 
-        STR = 17;
+        STR = 15;
 
-        MIN = 4;
-        MAX = 20;
+        MIN = 2;
+        MAX = 15;
     }
 
-    public Tamahawk() {
+    public Javelin() {
         this(1);
     }
 
-    public Tamahawk(int number) {
+    public Javelin(int number) {
         super();
         quantity = number;
     }
@@ -48,24 +48,24 @@ public class Tamahawk extends MissileWeapon {
     @Override
     public void proc(Char attacker, Char defender, int damage) {
         super.proc(attacker, defender, damage);
-        Buff.affect(defender, Bleeding.class).set(damage);
+        Buff.prolong(defender, Cripple.class, Cripple.DURATION);
     }
 
     @Override
     public String desc() {
         return
-                "This throwing axe is not that heavy, but it still " +
-                        "requires significant strength to be used effectively.";
+                "This length of metal is weighted to keep the spike " +
+                        "at its tip foremost as it sails through the air.";
     }
 
     @Override
     public Item random() {
-        quantity = Random.Int(5, 12);
+        quantity = Random.Int(5, 15);
         return this;
     }
 
     @Override
     public int price() {
-        return 20 * quantity;
+        return 15 * quantity;
     }
 }

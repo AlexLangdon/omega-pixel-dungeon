@@ -197,7 +197,7 @@ public class Potion extends Item {
     }
 
     @Override
-    protected void onThrow(int cell) {
+    public void onThrow(int cell) {
         if (Dungeon.hero.pos == cell) {
 
             apply(Dungeon.hero);

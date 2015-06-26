@@ -15,47 +15,40 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.items.weapon.missiles;
+package com.watabou.pixeldungeon.items.weapon.ranged.missiles;
 
-import com.watabou.pixeldungeon.actors.buffs.Buff;
 import com.watabou.pixeldungeon.items.Item;
-import com.watabou.pixeldungeon.actors.Char;
-import com.watabou.pixeldungeon.actors.buffs.Cripple;
 import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 import com.watabou.utils.Random;
 
-public class Javelin extends MissileWeapon {
+public class Shuriken extends MissileWeapon {
 
     {
-        name = "javelin";
-        image = ItemSpriteSheet.JAVELIN;
+        name = "shuriken";
+        image = ItemSpriteSheet.SHURIKEN;
 
-        STR = 15;
+        STR = 13;
 
         MIN = 2;
-        MAX = 15;
+        MAX = 6;
+
+        DLY = 0.5f;
     }
 
-    public Javelin() {
+    public Shuriken() {
         this(1);
     }
 
-    public Javelin(int number) {
+    public Shuriken(int number) {
         super();
         quantity = number;
     }
 
     @Override
-    public void proc(Char attacker, Char defender, int damage) {
-        super.proc(attacker, defender, damage);
-        Buff.prolong(defender, Cripple.class, Cripple.DURATION);
-    }
-
-    @Override
     public String desc() {
         return
-                "This length of metal is weighted to keep the spike " +
-                        "at its tip foremost as it sails through the air.";
+                "Star-shaped pieces of metal with razor-sharp blades do significant damage " +
+                        "when they hit a target. They can be thrown at very high rate.";
     }
 
     @Override

@@ -41,7 +41,7 @@ import com.watabou.pixeldungeon.items.scrolls.ScrollOfPsionicBlast;
 import com.watabou.pixeldungeon.items.scrolls.ScrollOfUpgrade;
 import com.watabou.pixeldungeon.items.wands.WandOfTelekinesis;
 import com.watabou.pixeldungeon.items.weapon.enchantments.Shock;
-import com.watabou.pixeldungeon.items.weapon.missiles.Boomerang;
+import com.watabou.pixeldungeon.items.weapon.ranged.missiles.Boomerang;
 import com.watabou.pixeldungeon.plants.Dreamweed;
 import com.watabou.pixeldungeon.scenes.GameScene;
 import com.watabou.pixeldungeon.scenes.PixelScene;
@@ -98,7 +98,7 @@ public class PixelDungeon extends Game {
                 "com.watabou.pixeldungeon.items.rings.RingOfResistance");
         com.watabou.utils.Bundle.addAlias(
                 Boomerang.class,
-                "com.watabou.pixeldungeon.items.weapon.missiles.RangersBoomerang");
+                "com.watabou.pixeldungeon.items.weapon.ranged.missiles.RangersBoomerang");
         com.watabou.utils.Bundle.addAlias(
                 RingOfPower.class,
                 "com.watabou.pixeldungeon.items.rings.RingOfEnergy");

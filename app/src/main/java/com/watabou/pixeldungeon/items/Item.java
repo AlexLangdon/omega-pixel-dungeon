@@ -42,7 +42,7 @@ import com.watabou.pixeldungeon.items.bags.Bag;
 import com.watabou.pixeldungeon.items.rings.Ring;
 import com.watabou.pixeldungeon.items.wands.Wand;
 import com.watabou.pixeldungeon.items.weapon.Weapon;
-import com.watabou.pixeldungeon.items.weapon.missiles.MissileWeapon;
+import com.watabou.pixeldungeon.items.weapon.ranged.missiles.MissileWeapon;
 import com.watabou.pixeldungeon.sprites.CharSprite;
 import com.watabou.pixeldungeon.sprites.MissileSprite;
 import com.watabou.pixeldungeon.utils.GLog;
@@ -71,7 +71,7 @@ public class Item implements Bundlable {
 
     public static final String AC_DROP = "DROP";
     public static final String AC_THROW = "THROW";
-    public static final String AC_FIRE = "FIRE";
+    public static final String AC_SHOOT = "SHOOT";
 
     public String defaultAction;
 
@@ -124,7 +124,7 @@ public class Item implements Bundlable {
     }
 
     public void doThrow(Hero hero) {
-        GameScene.selectCell(thrower);
+       GameScene.selectCell(thrower);
     }
 
     public void execute(Hero hero, String action) {
@@ -133,18 +133,9 @@ public class Item implements Bundlable {
         curItem = this;
 
         if (action.equals(AC_DROP)) {
-
             doDrop(hero);
-
         } else if (action.equals(AC_THROW)) {
-
             doThrow(hero);
-
-        } else if (action.equals(AC_FIRE)) {
-
-            //TODO Change doThrow to doShoot
-            doThrow(hero);
-
         }
     }
 
@@ -152,7 +143,7 @@ public class Item implements Bundlable {
         execute(hero, defaultAction);
     }
 
-    protected void onThrow(int cell) {
+    public void onThrow(int cell) {
         Heap heap = Dungeon.level.drop(this, cell);
         if (!heap.isEmpty()) {
             heap.sprite.drop(cell);
@@ -208,7 +199,7 @@ public class Item implements Bundlable {
         return collect(Dungeon.hero.belongings.backpack);
     }
 
-    public final Item detach(Bag container) {
+    public Item detach(Bag container) {
 
         if (quantity <= 0) {
 
@@ -239,6 +230,7 @@ public class Item implements Bundlable {
             if (item == this) {
                 container.items.remove(this);
                 item.onDetach();
+
                 QuickSlot.refresh();
                 return this;
             } else if (item instanceof Bag) {
@@ -553,7 +545,7 @@ public class Item implements Bundlable {
 
         @Override
         public String prompt() {
-            return "Choose direction of throw";
+            return "Choose direction of throw.";
         }
     };
 }

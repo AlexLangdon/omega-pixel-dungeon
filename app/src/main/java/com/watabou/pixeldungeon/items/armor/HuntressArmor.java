@@ -25,7 +25,7 @@ import com.watabou.pixeldungeon.levels.Level;
 import com.watabou.pixeldungeon.Dungeon;
 import com.watabou.pixeldungeon.actors.hero.Hero;
 import com.watabou.pixeldungeon.actors.mobs.Mob;
-import com.watabou.pixeldungeon.items.weapon.missiles.Shuriken;
+import com.watabou.pixeldungeon.items.weapon.ranged.missiles.Shuriken;
 import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 import com.watabou.pixeldungeon.sprites.MissileSprite;
 import com.watabou.pixeldungeon.utils.GLog;

@@ -15,59 +15,46 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.items.weapon.missiles;
+package com.watabou.pixeldungeon.items.weapon.ranged.missiles;
 
-import com.watabou.pixeldungeon.actors.buffs.Buff;
-import com.watabou.pixeldungeon.actors.buffs.Paralysis;
 import com.watabou.pixeldungeon.items.Item;
 import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
-import com.watabou.pixeldungeon.actors.Char;
 import com.watabou.utils.Random;
 
-public class CurareDart extends MissileWeapon {
-
-    public static final float DURATION = 3f;
+public class Dart extends MissileWeapon {
 
     {
-        name = "curare dart";
-        image = ItemSpriteSheet.CURARE_DART;
-
-        STR = 14;
+        name = "dart";
+        image = ItemSpriteSheet.DART;
 
         MIN = 1;
-        MAX = 3;
+        MAX = 4;
     }
 
-    public CurareDart() {
+    public Dart() {
         this(1);
     }
 
-    public CurareDart(int number) {
+    public Dart(int number) {
         super();
         quantity = number;
     }
 
     @Override
-    public void proc(Char attacker, Char defender, int damage) {
-        Buff.prolong(defender, Paralysis.class, DURATION);
-        super.proc(attacker, defender, damage);
-    }
-
-    @Override
     public String desc() {
         return
-                "These little evil darts don't do much damage but they can paralyze " +
-                        "the target leaving it helpless and motionless for some time.";
+                "These simple metal spikes are weighted to fly true and " +
+                        "sting their prey with a flick of the wrist.";
     }
 
     @Override
     public Item random() {
-        quantity = Random.Int(2, 5);
+        quantity = Random.Int(5, 15);
         return this;
     }
 
     @Override
     public int price() {
-        return 12 * quantity;
+        return quantity * 2;
     }
 }

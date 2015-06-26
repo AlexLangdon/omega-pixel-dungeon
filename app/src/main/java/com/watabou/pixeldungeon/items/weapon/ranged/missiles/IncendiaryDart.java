@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.watabou.pixeldungeon.items.weapon.missiles;
+package com.watabou.pixeldungeon.items.weapon.ranged.missiles;
 
 import com.watabou.pixeldungeon.levels.Level;
 import com.watabou.pixeldungeon.scenes.GameScene;
@@ -52,7 +52,7 @@ public class IncendiaryDart extends MissileWeapon {
     }
 
     @Override
-    protected void onThrow(int cell) {
+    public void onThrow(int cell) {
         Char enemy = Actor.findChar(cell);
         if (enemy == null || enemy == curUser) {
             if (Level.flamable[cell]) {
