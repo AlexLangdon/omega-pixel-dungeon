@@ -6,12 +6,14 @@ import com.watabou.pixeldungeon.actors.Actor;
 import com.watabou.pixeldungeon.actors.Char;
 import com.watabou.pixeldungeon.actors.hero.Hero;
 import com.watabou.pixeldungeon.items.Item;
+import com.watabou.pixeldungeon.items.bags.Bag;
 import com.watabou.pixeldungeon.items.weapon.ranged.RangedWeapon;
 import com.watabou.pixeldungeon.mechanics.Ballistica;
 import com.watabou.pixeldungeon.scenes.CellSelector;
 import com.watabou.pixeldungeon.scenes.GameScene;
 import com.watabou.pixeldungeon.sprites.MissileSprite;
 import com.watabou.pixeldungeon.ui.QuickSlot;
+import com.watabou.pixeldungeon.utils.GLog;
 import com.watabou.utils.Callback;
 
 import java.util.ArrayList;
@@ -22,6 +24,9 @@ import java.util.ArrayList;
 
 public class FirearmWeapon extends RangedWeapon {
 
+    private static final String TXT_NO_AMMO = "the firearm does not fire;" +
+                                              " it must have run out of ammunition";
+
     protected int projectileImage = 129;
 
     {
@@ -29,6 +34,12 @@ public class FirearmWeapon extends RangedWeapon {
     }
 
     public void doShoot(Hero hero) {
+
+        if(quantity <= 0){
+            GLog.w(TXT_NO_AMMO);
+            return;
+        }
+
         GameScene.selectCell(shooter);
     }
 
@@ -39,10 +50,33 @@ public class FirearmWeapon extends RangedWeapon {
         curItem = this;
 
         if (action.equals(AC_SHOOT) && isEquipped(hero)) {
+
             doShoot(hero);
+
         } else {
+
             super.execute(hero,action);
+
         }
+    }
+
+    @Override
+    public Item detach(Bag container) {
+
+        if (quantity <= 0) {
+            return null;
+        } else {
+            quantity--;
+            updateQuickslot();
+            try {
+                Item detached = getClass().newInstance();
+                detached.onDetach();
+                return detached;
+            } catch (Exception e) {
+                return null;
+            }
+        }
+
     }
 
     //TODO Make firing an unequipped gun impossible to balance with the thorwing knives etc
@@ -57,10 +91,12 @@ public class FirearmWeapon extends RangedWeapon {
 
     //TODO Allow throwing gun
     public void onShoot(int cell) {
+
         Char enemy = Actor.findChar(cell);
         if (enemy == null || enemy == Item.curUser || !Item.curUser.fireFirearm(enemy, this)) {
             miss(cell);
         }
+
     }
 
     @Override
@@ -114,12 +150,9 @@ public class FirearmWeapon extends RangedWeapon {
                 });
     }
 
+    //TODO Text information to explain that you cannot shoot an empty clip
     public void castShooter(final Hero user, int dst) {
 
-        if (quantity == 1 && !this.doUnequip(user, false, false)) {
-            return;
-        }
-        
         final int cell = Ballistica.cast(user.pos, dst, false, true);
         user.sprite.zap(cell);
         user.busy();

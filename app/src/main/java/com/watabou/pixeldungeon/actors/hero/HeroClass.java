@@ -28,6 +28,7 @@ import com.watabou.pixeldungeon.items.rings.RingOfShadows;
 import com.watabou.pixeldungeon.items.scrolls.ScrollOfIdentify;
 import com.watabou.pixeldungeon.items.scrolls.ScrollOfMagicMapping;
 import com.watabou.pixeldungeon.items.wands.WandOfMagicMissile;
+import com.watabou.pixeldungeon.items.weapon.Weapon;
 import com.watabou.pixeldungeon.items.weapon.melee.Dagger;
 import com.watabou.pixeldungeon.items.weapon.melee.Knuckles;
 import com.watabou.pixeldungeon.items.weapon.melee.ShortSword;
@@ -135,7 +136,8 @@ public enum HeroClass {
         hero.STR = hero.STR + 1;
 
         (hero.belongings.weapon = new ShortSword()).identify();
-        new Handgun(5).identify().collect();
+        Handgun test = new Handgun(5);
+                test.identify().collect();
 
         QuickSlot.primaryValue = Handgun.class;
 

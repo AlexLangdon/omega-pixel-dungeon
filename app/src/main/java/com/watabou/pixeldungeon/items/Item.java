@@ -244,7 +244,7 @@ public class Item implements Bundlable {
         return this;
     }
 
-    protected void onDetach() {
+    public void onDetach() {
     }
 
     public Item upgrade() {

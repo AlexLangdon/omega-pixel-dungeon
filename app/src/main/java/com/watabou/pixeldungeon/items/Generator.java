@@ -94,6 +94,7 @@ import com.watabou.pixeldungeon.items.weapon.melee.ShortSword;
 import com.watabou.pixeldungeon.items.weapon.melee.Spear;
 import com.watabou.pixeldungeon.items.weapon.melee.Sword;
 import com.watabou.pixeldungeon.items.weapon.melee.WarHammer;
+import com.watabou.pixeldungeon.items.weapon.ranged.firearms.Handgun;
 import com.watabou.pixeldungeon.items.weapon.ranged.missiles.Boomerang;
 import com.watabou.pixeldungeon.items.weapon.ranged.missiles.CurareDart;
 import com.watabou.pixeldungeon.items.weapon.ranged.missiles.Dart;
@@ -224,8 +225,9 @@ public class Generator {
                 CurareDart.class,
                 Shuriken.class,
                 Boomerang.class,
-                Tamahawk.class};
-        Category.WEAPON.probs = new float[]{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1};
+                Tamahawk.class,
+                Handgun.class};
+        Category.WEAPON.probs = new float[]{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1};
 
         Category.ARMOR.classes = new Class<?>[]{
                 ClothArmor.class,
