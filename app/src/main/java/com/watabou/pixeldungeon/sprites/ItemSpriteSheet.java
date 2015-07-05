@@ -180,6 +180,7 @@ public class ItemSpriteSheet {
 
     //Firearms
     public static final int HANDGUN = 128;
+    public static final int AUTORIFLE = 130;
 
     //TODO Make projectiles their own sprite sheet
 

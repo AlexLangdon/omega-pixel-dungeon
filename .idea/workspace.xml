@@ -2,29 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6573c9d-d967-4b42-a857-539a8b896126" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/firearms/AutoRifle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/watabou/pixeldungeon/items/weapon/ranged/firearms/FirearmWeapon$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/watabou/pixeldungeon/items/weapon/ranged/firearms/FirearmWeapon$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/watabou/pixeldungeon/items/weapon/ranged/firearms/FirearmWeapon$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/watabou/pixeldungeon/items/weapon/ranged/firearms/FirearmWeapon$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/watabou/pixeldungeon/items/weapon/ranged/firearms/FirearmWeapon$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/watabou/pixeldungeon/items/weapon/ranged/firearms/FirearmWeapon$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/watabou/pixeldungeon/items/weapon/ranged/firearms/FirearmWeapon.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/watabou/pixeldungeon/items/weapon/ranged/firearms/FirearmWeapon.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/watabou/pixeldungeon/items/weapon/ranged/firearms/Handgun.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/watabou/pixeldungeon/items/weapon/ranged/firearms/Handgun.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/watabou/pixeldungeon/actors/hero/HeroClass$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/watabou/pixeldungeon/actors/hero/HeroClass$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/watabou/pixeldungeon/actors/hero/HeroClass.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/watabou/pixeldungeon/actors/hero/HeroClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/watabou/pixeldungeon/sprites/ItemSpriteSheet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/watabou/pixeldungeon/sprites/ItemSpriteSheet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/items.png" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/items.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/items.png" afterPath="$PROJECT_DIR$/app/src/main/assets/items.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WIP Images/items.xcf" afterPath="$PROJECT_DIR$/WIP Images/items.xcf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/tiles0.png" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/tiles0.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/tiles0.png" afterPath="$PROJECT_DIR$/app/src/main/assets/tiles0.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WIP Images/tiles0.xcf" afterPath="$PROJECT_DIR$/WIP Images/tiles0.xcf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD-classes/com/watabou/noosa/BitmapText.java" afterPath="$PROJECT_DIR$/../PD-classes/com/watabou/noosa/BitmapText.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD-classes/com/watabou/noosa/BitmapTextMultiline.java" afterPath="$PROJECT_DIR$/../PD-classes/com/watabou/noosa/BitmapTextMultiline.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD-classes/com/watabou/noosa/ui/Button.java" afterPath="$PROJECT_DIR$/../PD-classes/com/watabou/noosa/ui/Button.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD-classes/com/watabou/noosa/particles/Emitter.java" afterPath="$PROJECT_DIR$/../PD-classes/com/watabou/noosa/particles/Emitter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/firearms/FirearmWeapon.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/firearms/FirearmWeapon.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/firearms/Handgun.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/firearms/Handgun.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/actors/hero/HeroClass.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/actors/hero/HeroClass.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD-classes/com/watabou/noosa/Image.java" afterPath="$PROJECT_DIR$/../PD-classes/com/watabou/noosa/Image.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/sprites/ItemSpriteSheet.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/sprites/ItemSpriteSheet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD-classes/com/watabou/noosa/NinePatch.java" afterPath="$PROJECT_DIR$/../PD-classes/com/watabou/noosa/NinePatch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD-classes/com/watabou/noosa/NoosaScript.java" afterPath="$PROJECT_DIR$/../PD-classes/com/watabou/noosa/NoosaScript.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD-classes/com/watabou/noosa/tweeners/ScaleTweener.java" afterPath="$PROJECT_DIR$/../PD-classes/com/watabou/noosa/tweeners/ScaleTweener.java" />
@@ -59,186 +66,202 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="AutoRifle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/firearms/AutoRifle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+              <folding>
+                <element signature="e#504#505#0" expanded="false" />
+                <element signature="e#527#528#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Handgun.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/firearms/Handgun.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="false" />
-                <element signature="e#482#483#0" expanded="false" />
                 <element signature="e#505#506#0" expanded="false" />
-                <element signature="e#924#925#0" expanded="false" />
-                <element signature="e#959#960#0" expanded="false" />
+                <element signature="e#528#529#0" expanded="false" />
+                <element signature="e#926#927#0" expanded="false" />
+                <element signature="e#961#962#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Weapon.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/Weapon.java">
+      <file leaf-file-name="Callback.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../PD-classes/com/watabou/utils/Callback.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="213" column="25" selection-start-line="213" selection-start-column="18" selection-end-line="213" selection-end-column="25" />
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding>
-                <element signature="e#0#8368#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#5752#5753#0" expanded="false" />
-                <element signature="e#5804#5805#0" expanded="false" />
-                <element signature="e#7009#7010#0" expanded="false" />
-                <element signature="e#7051#7052#0" expanded="false" />
-                <element signature="e#7763#7764#0" expanded="false" />
-                <element signature="e#7804#7805#0" expanded="false" />
-                <element signature="e#8015#8016#0" expanded="false" />
-                <element signature="e#8070#8071#0" expanded="false" />
+                <element signature="e#0#769#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirearmWeapon.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/firearms/FirearmWeapon.java">
+      <file leaf-file-name="Char.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/actors/Char.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+              <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
               <folding>
+                <element signature="e#0#15583#0" expanded="false" />
                 <element signature="imports" expanded="false" />
-                <element signature="e#5931#5932#0" expanded="false" />
-                <element signature="e#5989#5990#0" expanded="false" />
+                <element signature="e#3614#3620#0" expanded="false" />
+                <element signature="e#7664#7665#0" expanded="false" />
+                <element signature="e#7688#7689#0" expanded="false" />
+                <element signature="e#7731#7732#0" expanded="false" />
+                <element signature="e#7755#7756#0" expanded="false" />
+                <element signature="e#7790#7791#0" expanded="false" />
+                <element signature="e#7821#7822#0" expanded="false" />
+                <element signature="e#7844#7845#0" expanded="false" />
+                <element signature="e#7868#7869#0" expanded="false" />
+                <element signature="e#7899#7900#0" expanded="false" />
+                <element signature="e#7923#7924#0" expanded="false" />
+                <element signature="e#7976#7977#0" expanded="false" />
+                <element signature="e#8005#8006#0" expanded="false" />
+                <element signature="e#8059#8060#0" expanded="false" />
+                <element signature="e#8088#8089#0" expanded="false" />
+                <element signature="e#8116#8117#0" expanded="false" />
+                <element signature="e#8197#8198#0" expanded="false" />
+                <element signature="e#9398#9399#0" expanded="false" />
+                <element signature="e#9427#9428#0" expanded="false" />
+                <element signature="e#9757#9758#0" expanded="false" />
+                <element signature="e#9785#9786#0" expanded="false" />
+                <element signature="e#9792#9822#0" expanded="false" />
+                <element signature="e#10093#10123#0" expanded="false" />
+                <element signature="e#14420#14421#0" expanded="false" />
+                <element signature="e#14444#14445#0" expanded="false" />
+                <element signature="e#15121#15122#0" expanded="false" />
+                <element signature="e#15174#15175#0" expanded="false" />
+                <element signature="e#15212#15213#0" expanded="false" />
+                <element signature="e#15234#15235#0" expanded="false" />
+                <element signature="e#15272#15273#0" expanded="false" />
+                <element signature="e#15294#15295#0" expanded="false" />
+                <element signature="e#15333#15334#0" expanded="false" />
+                <element signature="e#15355#15356#0" expanded="false" />
+                <element signature="e#15420#15430#0" expanded="false" />
+                <element signature="e#15478#15479#0" expanded="false" />
+                <element signature="e#15506#15507#0" expanded="false" />
+                <element signature="e#15551#15552#0" expanded="false" />
+                <element signature="e#15579#15580#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MeleeWeapon.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/melee/MeleeWeapon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#5614#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#1288#1289#0" expanded="false" />
-                <element signature="e#1315#1316#0" expanded="false" />
-                <element signature="e#1340#1341#0" expanded="false" />
-                <element signature="e#1408#1409#0" expanded="false" />
-                <element signature="e#1457#1458#0" expanded="false" />
-                <element signature="e#1494#1495#0" expanded="false" />
-                <element signature="e#1668#1669#0" expanded="false" />
-                <element signature="e#1719#1720#0" expanded="false" />
-                <element signature="e#1882#1883#0" expanded="false" />
-                <element signature="e#1917#1918#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="224" column="5" selection-start-line="201" selection-start-column="4" selection-end-line="224" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#15014#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#4539#4540#0" expanded="false" />
-                <element signature="e#4583#4584#0" expanded="false" />
-                <element signature="e#4877#4878#0" expanded="false" />
-                <element signature="e#4921#4922#0" expanded="false" />
-                <element signature="e#6201#6202#0" expanded="false" />
-                <element signature="e#6265#6266#0" expanded="false" />
-                <element signature="e#9056#9057#0" expanded="false" />
-                <element signature="e#9100#9101#0" expanded="false" />
-                <element signature="e#9245#9246#0" expanded="false" />
-                <element signature="e#9278#9279#0" expanded="false" />
-                <element signature="e#9319#9320#0" expanded="false" />
-                <element signature="e#9343#9344#0" expanded="false" />
-                <element signature="e#9383#9384#0" expanded="false" />
-                <element signature="e#9426#9427#0" expanded="false" />
-                <element signature="e#9462#9463#0" expanded="false" />
-                <element signature="e#9507#9508#0" expanded="false" />
-                <element signature="e#9545#9546#0" expanded="false" />
-                <element signature="e#9589#9590#0" expanded="false" />
-                <element signature="e#9626#9627#0" expanded="false" />
-                <element signature="e#9653#9654#0" expanded="false" />
-                <element signature="e#9690#9691#0" expanded="false" />
-                <element signature="e#9738#9739#0" expanded="false" />
-                <element signature="e#9782#9783#0" expanded="false" />
-                <element signature="e#9810#9811#0" expanded="false" />
-                <element signature="e#10609#10610#0" expanded="false" />
-                <element signature="e#10636#10637#0" expanded="false" />
-                <element signature="e#10674#10675#0" expanded="false" />
-                <element signature="e#10701#10702#0" expanded="false" />
-                <element signature="e#10727#10728#0" expanded="false" />
-                <element signature="e#10755#10756#0" expanded="false" />
-                <element signature="e#10798#10799#0" expanded="false" />
-                <element signature="e#10825#10826#0" expanded="false" />
-                <element signature="e#10853#10854#0" expanded="false" />
-                <element signature="e#10882#10883#0" expanded="false" />
-                <element signature="e#10910#10911#0" expanded="false" />
-                <element signature="e#10935#10936#0" expanded="false" />
-                <element signature="e#10964#10965#0" expanded="false" />
-                <element signature="e#10995#10996#0" expanded="false" />
-                <element signature="e#11034#11035#0" expanded="false" />
-                <element signature="e#11066#11067#0" expanded="false" />
-                <element signature="e#11092#11093#0" expanded="false" />
-                <element signature="e#11116#11117#0" expanded="false" />
-                <element signature="e#11398#11399#0" expanded="false" />
-                <element signature="e#11425#11426#0" expanded="false" />
-                <element signature="e#11455#11456#0" expanded="false" />
-                <element signature="e#11527#11528#0" expanded="false" />
-                <element signature="e#14944#14945#0" expanded="false" />
-                <element signature="e#15003#15004#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeroClass.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HeroClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/actors/hero/HeroClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08415841">
-              <caret line="142" column="54" selection-start-line="142" selection-start-column="54" selection-end-line="142" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="144" column="42" selection-start-line="144" selection-start-column="42" selection-end-line="144" selection-end-column="42" />
               <folding>
-                <element signature="e#2116#2117#0" expanded="true" />
-                <element signature="e#2150#2151#0" expanded="true" />
-                <element signature="e#6554#6555#0" expanded="true" />
-                <element signature="e#6582#6583#0" expanded="true" />
-                <element signature="e#7360#7361#0" expanded="true" />
-                <element signature="e#7405#7406#0" expanded="true" />
+                <element signature="e#0#7740#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#2188#2189#0" expanded="false" />
+                <element signature="e#2222#2223#0" expanded="false" />
+                <element signature="e#6709#6710#0" expanded="false" />
+                <element signature="e#6737#6738#0" expanded="false" />
+                <element signature="e#7515#7516#0" expanded="false" />
+                <element signature="e#7560#7561#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Wand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/wands/Wand.java">
+      <file leaf-file-name="FirearmWeapon.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/firearms/FirearmWeapon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.20544554">
+              <caret line="191" column="63" selection-start-line="191" selection-start-column="63" selection-end-line="191" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3948#4224#0" expanded="true" />
+                <element signature="e#4223#4224#0" expanded="true" />
+                <element signature="e#5683#6046#0" expanded="true" />
+                <element signature="e#6045#6046#0" expanded="true" />
+                <element signature="e#6748#6749#0" expanded="true" />
+                <element signature="e#6806#6807#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MissileSprite.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/sprites/MissileSprite.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="454" column="20" selection-start-line="454" selection-start-column="20" selection-end-line="454" selection-end-column="40" />
+              <caret line="82" column="26" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="26" />
               <folding>
-                <element signature="e#0#13685#0" expanded="false" />
+                <element signature="e#0#2774#0" expanded="false" />
                 <element signature="imports" expanded="false" />
-                <element signature="e#4552#4553#0" expanded="false" />
-                <element signature="e#4588#4589#0" expanded="false" />
-                <element signature="e#5632#5633#0" expanded="false" />
-                <element signature="e#5660#5661#0" expanded="false" />
-                <element signature="e#6458#6459#0" expanded="false" />
-                <element signature="e#6488#6489#0" expanded="false" />
-                <element signature="e#6939#6940#0" expanded="false" />
-                <element signature="e#6983#6984#0" expanded="false" />
-                <element signature="e#7620#7621#0" expanded="false" />
-                <element signature="e#7676#7677#0" expanded="false" />
-                <element signature="e#8206#8207#0" expanded="false" />
-                <element signature="e#8280#8281#0" expanded="false" />
-                <element signature="e#8892#8893#0" expanded="false" />
-                <element signature="e#8944#8945#0" expanded="false" />
-                <element signature="e#9167#9168#0" expanded="false" />
-                <element signature="e#9191#9192#0" expanded="false" />
-                <element signature="e#10095#10096#0" expanded="false" />
-                <element signature="e#10156#10157#0" expanded="false" />
-                <element signature="e#12862#12863#0" expanded="false" />
-                <element signature="e#12918#12919#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tweener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../PD-classes/com/watabou/noosa/tweeners/Tweener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="18" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#1519#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CharSprite.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/sprites/CharSprite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="155" column="12" selection-start-line="155" selection-start-column="12" selection-end-line="155" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#11781#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3565#3566#0" expanded="false" />
+                <element signature="e#3607#3608#0" expanded="false" />
+                <element signature="e#4051#4052#0" expanded="false" />
+                <element signature="e#4077#4078#0" expanded="false" />
+                <element signature="e#6635#6636#0" expanded="false" />
+                <element signature="e#6668#6669#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameScene.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/scenes/GameScene.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="367" column="25" selection-start-line="367" selection-start-column="25" selection-end-line="367" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#18707#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#13104#13105#0" expanded="false" />
+                <element signature="e#13152#13153#0" expanded="false" />
+                <element signature="e#14599#14600#0" expanded="false" />
+                <element signature="e#14639#14640#0" expanded="false" />
+                <element signature="e#14687#14688#0" expanded="false" />
+                <element signature="e#14728#14729#0" expanded="false" />
+                <element signature="e#15474#15475#0" expanded="false" />
+                <element signature="e#15516#15517#0" expanded="false" />
+                <element signature="e#16456#16457#0" expanded="false" />
+                <element signature="e#16510#16511#0" expanded="false" />
+                <element signature="e#17135#17136#0" expanded="false" />
+                <element signature="e#17176#17177#0" expanded="false" />
+                <element signature="e#18661#18662#0" expanded="false" />
+                <element signature="e#18696#18697#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -1548,11 +1571,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/firearms/FirearmWeapn.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/scenes/GameScene.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/missiles/MissileWeapon.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/sprites/ItemSpriteSheet.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/firearms/Handgun.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/firearms/FirearmWeapon.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/actors/hero/Hero.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/firearms/Handgun.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/missiles/MissileWeapon.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/plants/Plant.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/potions/Potion.java" />
@@ -1563,8 +1584,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/RangedWeapon.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/Generator.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/Item.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/firearms/FirearmWeapon.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/sprites/ItemSpriteSheet.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/actors/hero/HeroClass.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/firearms/Handgun.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/firearms/AutoRifle.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/firearms/FirearmWeapon.java" />
       </list>
     </option>
   </component>
@@ -1607,75 +1631,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pixel-dungeon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pixel-dungeon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.watabou" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pixel-dungeon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.watabou" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pixeldungeon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pixel-dungeon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.watabou" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pixeldungeon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="items" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1735,6 +1690,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pixeldungeon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixel-dungeon" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watabou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixeldungeon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sprites" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2024,6 +2009,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2130,6 +2116,74 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixel-dungeon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixel-dungeon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.watabou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixel-dungeon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.watabou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixeldungeon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixel-dungeon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.watabou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixeldungeon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="items" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2364,7 +2418,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.4974293" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2435,93 +2489,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="17" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/wands/WandOfMagicMissile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="81" selection-end-column="5" />
-          <folding>
-            <element signature="e#3841#4629#0" expanded="false" />
-            <element signature="e#4628#4629#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/effects/MagicMissile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PD-classes/com/watabou/noosa/Gizmo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18063584">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PD-classes/com/watabou/noosa/Scene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PD-classes/com/watabou/noosa/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-21/android.jar!/android/opengl/GLSurfaceView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/sprites/CharSprite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="234" column="16" selection-start-line="234" selection-start-column="16" selection-end-line="234" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/effects/particles/EnergyParticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.41978022">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_40/src.zip!/java/sql/ResultSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33186814">
-          <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PD-classes/com/watabou/noosa/tweeners/Tweener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33168316">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/Assets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/missiles/Dart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2548,14 +2520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12283237">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/actors/Char.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="135" column="15" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2602,24 +2566,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/scenes/GameScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="432" column="15" selection-start-line="432" selection-start-column="12" selection-end-line="432" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/bags/Bag.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4579208">
           <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/scenes/CellSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -2635,13 +2585,6 @@
             <element signature="e#6381#6382#0" expanded="false" />
             <element signature="e#6422#6423#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/sprites/ItemSpriteSheet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="183" column="6" selection-start-line="183" selection-start-column="6" selection-end-line="183" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -2675,13 +2618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/sprites/ItemSprite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="211" column="24" selection-start-line="211" selection-start-column="24" selection-end-line="211" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/missiles/IncendiaryDart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2711,23 +2647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.353562">
           <caret line="82" column="42" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/sprites/MissileSprite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="66" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/RangedWeapon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2782,17 +2701,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/firearms/Handgun.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/Weapon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#482#483#0" expanded="false" />
-            <element signature="e#505#506#0" expanded="false" />
-            <element signature="e#924#925#0" expanded="false" />
-            <element signature="e#959#960#0" expanded="false" />
-          </folding>
+          <caret line="213" column="25" selection-start-line="213" selection-start-column="18" selection-end-line="213" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2800,115 +2713,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#5614#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1288#1289#0" expanded="false" />
-            <element signature="e#1315#1316#0" expanded="false" />
-            <element signature="e#1340#1341#0" expanded="false" />
-            <element signature="e#1408#1409#0" expanded="false" />
-            <element signature="e#1457#1458#0" expanded="false" />
-            <element signature="e#1494#1495#0" expanded="false" />
-            <element signature="e#1668#1669#0" expanded="false" />
-            <element signature="e#1719#1720#0" expanded="false" />
-            <element signature="e#1882#1883#0" expanded="false" />
-            <element signature="e#1917#1918#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/Item.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/ScrollOfDebugging.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="224" column="5" selection-start-line="201" selection-start-column="4" selection-end-line="224" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#15014#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#4539#4540#0" expanded="false" />
-            <element signature="e#4583#4584#0" expanded="false" />
-            <element signature="e#4877#4878#0" expanded="false" />
-            <element signature="e#4921#4922#0" expanded="false" />
-            <element signature="e#6201#6202#0" expanded="false" />
-            <element signature="e#6265#6266#0" expanded="false" />
-            <element signature="e#9056#9057#0" expanded="false" />
-            <element signature="e#9100#9101#0" expanded="false" />
-            <element signature="e#9245#9246#0" expanded="false" />
-            <element signature="e#9278#9279#0" expanded="false" />
-            <element signature="e#9319#9320#0" expanded="false" />
-            <element signature="e#9343#9344#0" expanded="false" />
-            <element signature="e#9383#9384#0" expanded="false" />
-            <element signature="e#9426#9427#0" expanded="false" />
-            <element signature="e#9462#9463#0" expanded="false" />
-            <element signature="e#9507#9508#0" expanded="false" />
-            <element signature="e#9545#9546#0" expanded="false" />
-            <element signature="e#9589#9590#0" expanded="false" />
-            <element signature="e#9626#9627#0" expanded="false" />
-            <element signature="e#9653#9654#0" expanded="false" />
-            <element signature="e#9690#9691#0" expanded="false" />
-            <element signature="e#9738#9739#0" expanded="false" />
-            <element signature="e#9782#9783#0" expanded="false" />
-            <element signature="e#9810#9811#0" expanded="false" />
-            <element signature="e#10609#10610#0" expanded="false" />
-            <element signature="e#10636#10637#0" expanded="false" />
-            <element signature="e#10674#10675#0" expanded="false" />
-            <element signature="e#10701#10702#0" expanded="false" />
-            <element signature="e#10727#10728#0" expanded="false" />
-            <element signature="e#10755#10756#0" expanded="false" />
-            <element signature="e#10798#10799#0" expanded="false" />
-            <element signature="e#10825#10826#0" expanded="false" />
-            <element signature="e#10853#10854#0" expanded="false" />
-            <element signature="e#10882#10883#0" expanded="false" />
-            <element signature="e#10910#10911#0" expanded="false" />
-            <element signature="e#10935#10936#0" expanded="false" />
-            <element signature="e#10964#10965#0" expanded="false" />
-            <element signature="e#10995#10996#0" expanded="false" />
-            <element signature="e#11034#11035#0" expanded="false" />
-            <element signature="e#11066#11067#0" expanded="false" />
-            <element signature="e#11092#11093#0" expanded="false" />
-            <element signature="e#11116#11117#0" expanded="false" />
-            <element signature="e#11398#11399#0" expanded="false" />
-            <element signature="e#11425#11426#0" expanded="false" />
-            <element signature="e#11455#11456#0" expanded="false" />
-            <element signature="e#11527#11528#0" expanded="false" />
-            <element signature="e#14944#14945#0" expanded="false" />
-            <element signature="e#15003#15004#0" expanded="false" />
-          </folding>
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/actors/hero/Hero.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/sprites/ItemSprite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3103447">
-          <caret line="1155" column="33" selection-start-line="1155" selection-start-column="32" selection-end-line="1155" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.042079207">
+          <caret line="211" column="24" selection-start-line="211" selection-start-column="24" selection-end-line="211" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/Weapon.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/sprites/ItemSpriteSheet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="213" column="25" selection-start-line="213" selection-start-column="18" selection-end-line="213" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#8368#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#5752#5753#0" expanded="false" />
-            <element signature="e#5804#5805#0" expanded="false" />
-            <element signature="e#7009#7010#0" expanded="false" />
-            <element signature="e#7051#7052#0" expanded="false" />
-            <element signature="e#7763#7764#0" expanded="false" />
-            <element signature="e#7804#7805#0" expanded="false" />
-            <element signature="e#8015#8016#0" expanded="false" />
-            <element signature="e#8070#8071#0" expanded="false" />
-          </folding>
+          <caret line="184" column="6" selection-start-line="184" selection-start-column="6" selection-end-line="184" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/missiles/Shuriken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/levels/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="191" column="7" selection-start-line="191" selection-start-column="7" selection-end-line="191" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/RangedWeapon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/wands/Wand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="454" column="20" selection-start-line="454" selection-start-column="20" selection-end-line="454" selection-end-column="40" />
+          <caret line="454" column="38" selection-start-line="454" selection-start-column="27" selection-end-line="454" selection-end-column="38" />
           <folding>
             <element signature="e#0#13685#0" expanded="false" />
             <element signature="imports" expanded="false" />
@@ -2936,29 +2794,264 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/firearms/FirearmWeapon.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/missiles/Tamahawk.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#1969#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1266#1267#0" expanded="false" />
+            <element signature="e#1289#1290#0" expanded="false" />
+            <element signature="e#1929#1930#0" expanded="false" />
+            <element signature="e#1965#1966#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="33" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PD-classes/com/watabou/noosa/TouchArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/scenes/CellSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/mechanics/Ballistica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20544554">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/actors/Actor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <folding>
+            <element signature="e#1410#1411#0" expanded="false" />
+            <element signature="e#1443#1444#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/actors/hero/Hero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="143" column="19" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#40015#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#7484#7485#0" expanded="false" />
+            <element signature="e#7531#7532#0" expanded="false" />
+            <element signature="e#9141#9142#0" expanded="false" />
+            <element signature="e#9216#9217#0" expanded="false" />
+            <element signature="e#26337#26338#0" expanded="false" />
+            <element signature="e#26381#26382#0" expanded="false" />
+            <element signature="e#26423#26424#0" expanded="false" />
+            <element signature="e#26495#26496#0" expanded="false" />
+            <element signature="e#30477#30478#0" expanded="false" />
+            <element signature="e#30511#30512#0" expanded="false" />
+            <element signature="e#30744#30745#0" expanded="false" />
+            <element signature="e#30809#30810#0" expanded="false" />
+            <element signature="e#39910#39911#0" expanded="false" />
+            <element signature="e#39938#39939#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/scenes/GameScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="367" column="25" selection-start-line="367" selection-start-column="25" selection-end-line="367" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#18707#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#13104#13105#0" expanded="false" />
+            <element signature="e#13152#13153#0" expanded="false" />
+            <element signature="e#14599#14600#0" expanded="false" />
+            <element signature="e#14639#14640#0" expanded="false" />
+            <element signature="e#14687#14688#0" expanded="false" />
+            <element signature="e#14728#14729#0" expanded="false" />
+            <element signature="e#15474#15475#0" expanded="false" />
+            <element signature="e#15516#15517#0" expanded="false" />
+            <element signature="e#16456#16457#0" expanded="false" />
+            <element signature="e#16510#16511#0" expanded="false" />
+            <element signature="e#17135#17136#0" expanded="false" />
+            <element signature="e#17176#17177#0" expanded="false" />
+            <element signature="e#18661#18662#0" expanded="false" />
+            <element signature="e#18696#18697#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/sprites/CharSprite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="155" column="12" selection-start-line="155" selection-start-column="12" selection-end-line="155" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#11781#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3565#3566#0" expanded="false" />
+            <element signature="e#3607#3608#0" expanded="false" />
+            <element signature="e#4051#4052#0" expanded="false" />
+            <element signature="e#4077#4078#0" expanded="false" />
+            <element signature="e#6635#6636#0" expanded="false" />
+            <element signature="e#6668#6669#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PD-classes/com/watabou/noosa/tweeners/Tweener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#1519#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/sprites/MissileSprite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="26" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#2774#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/firearms/AutoRifle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+          <folding>
+            <element signature="e#504#505#0" expanded="false" />
+            <element signature="e#527#528#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/firearms/Handgun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#5931#5932#0" expanded="false" />
-            <element signature="e#5989#5990#0" expanded="false" />
+            <element signature="e#505#506#0" expanded="false" />
+            <element signature="e#528#529#0" expanded="false" />
+            <element signature="e#926#927#0" expanded="false" />
+            <element signature="e#961#962#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PD-classes/com/watabou/utils/Callback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#769#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/actors/Char.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#15583#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3614#3620#0" expanded="false" />
+            <element signature="e#7664#7665#0" expanded="false" />
+            <element signature="e#7688#7689#0" expanded="false" />
+            <element signature="e#7731#7732#0" expanded="false" />
+            <element signature="e#7755#7756#0" expanded="false" />
+            <element signature="e#7790#7791#0" expanded="false" />
+            <element signature="e#7821#7822#0" expanded="false" />
+            <element signature="e#7844#7845#0" expanded="false" />
+            <element signature="e#7868#7869#0" expanded="false" />
+            <element signature="e#7899#7900#0" expanded="false" />
+            <element signature="e#7923#7924#0" expanded="false" />
+            <element signature="e#7976#7977#0" expanded="false" />
+            <element signature="e#8005#8006#0" expanded="false" />
+            <element signature="e#8059#8060#0" expanded="false" />
+            <element signature="e#8088#8089#0" expanded="false" />
+            <element signature="e#8116#8117#0" expanded="false" />
+            <element signature="e#8197#8198#0" expanded="false" />
+            <element signature="e#9398#9399#0" expanded="false" />
+            <element signature="e#9427#9428#0" expanded="false" />
+            <element signature="e#9757#9758#0" expanded="false" />
+            <element signature="e#9785#9786#0" expanded="false" />
+            <element signature="e#9792#9822#0" expanded="false" />
+            <element signature="e#10093#10123#0" expanded="false" />
+            <element signature="e#14420#14421#0" expanded="false" />
+            <element signature="e#14444#14445#0" expanded="false" />
+            <element signature="e#15121#15122#0" expanded="false" />
+            <element signature="e#15174#15175#0" expanded="false" />
+            <element signature="e#15212#15213#0" expanded="false" />
+            <element signature="e#15234#15235#0" expanded="false" />
+            <element signature="e#15272#15273#0" expanded="false" />
+            <element signature="e#15294#15295#0" expanded="false" />
+            <element signature="e#15333#15334#0" expanded="false" />
+            <element signature="e#15355#15356#0" expanded="false" />
+            <element signature="e#15420#15430#0" expanded="false" />
+            <element signature="e#15478#15479#0" expanded="false" />
+            <element signature="e#15506#15507#0" expanded="false" />
+            <element signature="e#15551#15552#0" expanded="false" />
+            <element signature="e#15579#15580#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/actors/hero/HeroClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08415841">
-          <caret line="142" column="54" selection-start-line="142" selection-start-column="54" selection-end-line="142" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="144" column="42" selection-start-line="144" selection-start-column="42" selection-end-line="144" selection-end-column="42" />
           <folding>
-            <element signature="e#2116#2117#0" expanded="true" />
-            <element signature="e#2150#2151#0" expanded="true" />
-            <element signature="e#6554#6555#0" expanded="true" />
-            <element signature="e#6582#6583#0" expanded="true" />
-            <element signature="e#7360#7361#0" expanded="true" />
-            <element signature="e#7405#7406#0" expanded="true" />
+            <element signature="e#0#7740#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2188#2189#0" expanded="false" />
+            <element signature="e#2222#2223#0" expanded="false" />
+            <element signature="e#6709#6710#0" expanded="false" />
+            <element signature="e#6737#6738#0" expanded="false" />
+            <element signature="e#7515#7516#0" expanded="false" />
+            <element signature="e#7560#7561#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/watabou/pixeldungeon/items/weapon/ranged/firearms/FirearmWeapon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20544554">
+          <caret line="191" column="63" selection-start-line="191" selection-start-column="63" selection-end-line="191" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3948#4224#0" expanded="true" />
+            <element signature="e#4223#4224#0" expanded="true" />
+            <element signature="e#5683#6046#0" expanded="true" />
+            <element signature="e#6045#6046#0" expanded="true" />
+            <element signature="e#6748#6749#0" expanded="true" />
+            <element signature="e#6806#6807#0" expanded="true" />
           </folding>
         </state>
       </provider>

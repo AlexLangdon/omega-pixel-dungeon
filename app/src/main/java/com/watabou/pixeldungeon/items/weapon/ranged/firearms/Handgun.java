@@ -14,7 +14,7 @@ public class Handgun extends FirearmWeapon {
         name = "handgun";
         image = ItemSpriteSheet.HANDGUN;
         projectileImage = ItemSpriteSheet.BULLET;
-
+        rateOfFire = 1;
         MIN = 1;
         MAX = 4;
     }
@@ -24,8 +24,7 @@ public class Handgun extends FirearmWeapon {
     }
 
     public Handgun(int number) {
-        super();
-        quantity = number;
+        super(number);
     }
 
     @Override

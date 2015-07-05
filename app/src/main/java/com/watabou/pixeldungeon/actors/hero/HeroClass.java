@@ -33,6 +33,7 @@ import com.watabou.pixeldungeon.items.weapon.Weapon;
 import com.watabou.pixeldungeon.items.weapon.melee.Dagger;
 import com.watabou.pixeldungeon.items.weapon.melee.Knuckles;
 import com.watabou.pixeldungeon.items.weapon.melee.ShortSword;
+import com.watabou.pixeldungeon.items.weapon.ranged.firearms.AutoRifle;
 import com.watabou.pixeldungeon.items.weapon.ranged.missiles.Dart;
 import com.watabou.pixeldungeon.items.weapon.ranged.missiles.Boomerang;
 import com.watabou.pixeldungeon.items.weapon.ranged.firearms.Handgun;
@@ -137,8 +138,12 @@ public enum HeroClass {
         hero.STR = hero.STR + 1;
 
         (hero.belongings.weapon = new ShortSword()).identify();
+
         Handgun test = new Handgun(5);
                 test.identify().collect();
+
+        AutoRifle test2 = new AutoRifle(16);
+        test2.identify().collect();
 
         (hero.belongings.weapon = new WandOfFirebolt()).identify();
 

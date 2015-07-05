@@ -25,17 +25,20 @@ import java.util.ArrayList;
 public class FirearmWeapon extends RangedWeapon {
 
     private static final String TXT_NO_AMMO = "the firearm does not fire;" +
-                                              " it must have run out of ammunition";
+            " it must have run out of ammunition";
 
     protected int projectileImage = 129;
+    protected int rateOfFire = 1;
+    private int shotsFired = 0;
 
-    {
+    public FirearmWeapon(int number) {
+            quantity = number;
         defaultAction = Item.AC_SHOOT;
     }
 
     public void doShoot(Hero hero) {
 
-        if(quantity <= 0){
+        if (quantity <= 0) {
             GLog.w(TXT_NO_AMMO);
             return;
         }
@@ -55,7 +58,7 @@ public class FirearmWeapon extends RangedWeapon {
 
         } else {
 
-            super.execute(hero,action);
+            super.execute(hero, action);
 
         }
     }
@@ -83,7 +86,7 @@ public class FirearmWeapon extends RangedWeapon {
     @Override
     public ArrayList<String> actions(Hero hero) {
         ArrayList<String> actions = super.actions(hero);
-        if(isEquipped(hero)) {
+        if (isEquipped(hero)) {
             actions.add(AC_SHOOT);
         }
         return actions;
@@ -166,7 +169,6 @@ public class FirearmWeapon extends RangedWeapon {
 
         /*
         // FIXME!!!
-
         if (this instanceof MissileWeapon) {
             delay *= ((MissileWeapon) this).speedFactor(user);
             if (enemy != null) {
@@ -182,17 +184,47 @@ public class FirearmWeapon extends RangedWeapon {
         final float finalDelay = delay;
         */
 
+        shotsFired = 0;
+
+        fireShots(user,cell,finalDelay);
+    }
+
+    private void fireShots(final Hero user,final int cell,final float finalDelay) {
+
+        shotsFired++;
+        FirearmWeapon detachWeap =
+                (FirearmWeapon) FirearmWeapon.this.detach(user.belongings.backpack);
+        detachWeap.onShoot(cell);
+
         ((MissileSprite) user.sprite.parent.recycle(MissileSprite.class)).
                 reset(user.pos, cell, projectileImage, glowing(), new Callback() {
                     @Override
                     public void call() {
-                     FirearmWeapon detachWeap =
-                             (FirearmWeapon)FirearmWeapon.this.detach(user.belongings.backpack);
-                        detachWeap.onShoot(cell);
-                        user.spendAndNext(finalDelay);
+
+                        if (shotsFired < rateOfFire) {
+                            fireShots(user,cell,finalDelay);
+                        } else {
+                            user.spendAndNext(finalDelay);
+                        }
                     }
+
                 });
+
     }
+
+    /*private void multiShotCall(Hero user, int cell, float finalDelay)
+    {
+        if(shotsFired < rateOfFire) {
+            rateOfFire++;
+            FirearmWeapon detachWeap =
+                    (FirearmWeapon) FirearmWeapon.this.detach(user.belongings.backpack);
+            detachWeap.onShoot(cell);
+        }
+        else {
+            user.spendAndNext(finalDelay);
+        }
+    }
+*/
 
     protected CellSelector.Listener shooter = new CellSelector.Listener() {
         @Override
