@@ -24,7 +24,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 import com.watabou.pixeldungeon.actors.Char;
 import com.watabou.utils.Random;
 
-public class CurareDart extends MissileWeapon {
+public class CurareDart extends ThrowingWeapon {
 
     public static final float DURATION = 3f;
 

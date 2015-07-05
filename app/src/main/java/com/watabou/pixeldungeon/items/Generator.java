@@ -94,6 +94,7 @@ import com.watabou.pixeldungeon.items.weapon.melee.ShortSword;
 import com.watabou.pixeldungeon.items.weapon.melee.Spear;
 import com.watabou.pixeldungeon.items.weapon.melee.Sword;
 import com.watabou.pixeldungeon.items.weapon.melee.WarHammer;
+import com.watabou.pixeldungeon.items.weapon.ranged.firearms.AutoRifle;
 import com.watabou.pixeldungeon.items.weapon.ranged.firearms.Handgun;
 import com.watabou.pixeldungeon.items.weapon.ranged.missiles.Boomerang;
 import com.watabou.pixeldungeon.items.weapon.ranged.missiles.CurareDart;
@@ -226,8 +227,9 @@ public class Generator {
                 Shuriken.class,
                 Boomerang.class,
                 Tamahawk.class,
-                Handgun.class};
-        Category.WEAPON.probs = new float[]{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1};
+                Handgun.class,
+                AutoRifle.class};
+        Category.WEAPON.probs = new float[]{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1};
 
         Category.ARMOR.classes = new Class<?>[]{
                 ClothArmor.class,
@@ -287,17 +289,18 @@ public class Generator {
 
     public static Item random(Category cat) {
         try {
+            return randomWeapon();
 
-            categoryProbs.put(cat, categoryProbs.get(cat) / 2);
+            //categoryProbs.put(cat, categoryProbs.get(cat) / 2);
 
-            switch (cat) {
+            /*switch (cat) {
                 case ARMOR:
                     return randomArmor();
                 case WEAPON:
                     return randomWeapon();
                 default:
                     return ((Item) cat.classes[Random.chances(cat.probs)].newInstance()).random();
-            }
+            }*/
 
         } catch (Exception e) {
 

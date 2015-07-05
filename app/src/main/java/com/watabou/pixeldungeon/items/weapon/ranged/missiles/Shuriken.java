@@ -21,7 +21,7 @@ import com.watabou.pixeldungeon.items.Item;
 import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 import com.watabou.utils.Random;
 
-public class Shuriken extends MissileWeapon {
+public class Shuriken extends ThrowingWeapon {
 
     {
         name = "shuriken";

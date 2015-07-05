@@ -80,7 +80,7 @@ import com.watabou.pixeldungeon.items.wands.Wand;
 import com.watabou.pixeldungeon.items.weapon.melee.MeleeWeapon;
 import com.watabou.pixeldungeon.items.weapon.ranged.RangedWeapon;
 import com.watabou.pixeldungeon.items.weapon.ranged.firearms.FirearmWeapon;
-import com.watabou.pixeldungeon.items.weapon.ranged.missiles.MissileWeapon;
+import com.watabou.pixeldungeon.items.weapon.ranged.missiles.ThrowingWeapon;
 import com.watabou.pixeldungeon.levels.Level;
 import com.watabou.pixeldungeon.levels.Terrain;
 import com.watabou.pixeldungeon.levels.features.AlchemyPot;
@@ -244,7 +244,7 @@ public class Hero extends Char {
         return belongings.armor == null ? 0 : belongings.armor.tier;
     }
 
-    public boolean throwMissile(Char enemy, MissileWeapon wep) {
+    public boolean throwMissile(Char enemy, ThrowingWeapon wep) {
 
         rangedWeapon = wep;
         boolean result = attack(enemy);

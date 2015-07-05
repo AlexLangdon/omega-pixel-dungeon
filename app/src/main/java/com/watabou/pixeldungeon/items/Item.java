@@ -23,6 +23,7 @@ import java.util.Comparator;
 
 import com.watabou.pixeldungeon.Badges;
 import com.watabou.pixeldungeon.items.armor.Armor;
+import com.watabou.pixeldungeon.items.weapon.ranged.missiles.ThrowingWeapon;
 import com.watabou.pixeldungeon.mechanics.Ballistica;
 import com.watabou.pixeldungeon.scenes.CellSelector;
 import com.watabou.pixeldungeon.scenes.GameScene;
@@ -42,7 +43,6 @@ import com.watabou.pixeldungeon.items.bags.Bag;
 import com.watabou.pixeldungeon.items.rings.Ring;
 import com.watabou.pixeldungeon.items.wands.Wand;
 import com.watabou.pixeldungeon.items.weapon.Weapon;
-import com.watabou.pixeldungeon.items.weapon.ranged.missiles.MissileWeapon;
 import com.watabou.pixeldungeon.sprites.CharSprite;
 import com.watabou.pixeldungeon.sprites.MissileSprite;
 import com.watabou.pixeldungeon.utils.GLog;
@@ -167,6 +167,19 @@ public class Item implements Bundlable {
         if (stackable) {
 
             Class<?> c = getClass();
+
+            //Char owner = container.owner;
+
+           /*if(owner != null && owner instanceof Hero) {
+              KindOfWeapon currentWeap = ((Hero)owner).belongings.weapon;
+               if(currentWeap != null && currentWeap.getClass() == c)
+               {
+                   currentWeap.quantity += quantity;
+                   currentWeap.updateQuickslot();
+                   return true;
+               }
+           }*/
+
             for (Item item : items) {
                 if (item.getClass() == c) {
                     item.quantity += quantity;
@@ -174,6 +187,7 @@ public class Item implements Bundlable {
                     return true;
                 }
             }
+
         }
 
         if (items.size() < container.size) {
@@ -509,8 +523,8 @@ public class Item implements Bundlable {
 
         // FIXME!!!
         float delay = TIME_TO_THROW;
-        if (this instanceof MissileWeapon) {
-            delay *= ((MissileWeapon) this).speedFactor(user);
+        if (this instanceof ThrowingWeapon) {
+            delay *= ((ThrowingWeapon) this).speedFactor(user);
             if (enemy != null) {
                 SnipersMark mark = user.buff(SnipersMark.class);
                 if (mark != null) {

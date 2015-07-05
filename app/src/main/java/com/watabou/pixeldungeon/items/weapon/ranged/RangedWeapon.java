@@ -16,21 +16,6 @@ public abstract class RangedWeapon extends Weapon
         levelKnown = true;
     }
 
-    @Override
-    public void proc(Char attacker, Char defender, int damage) {
-
-        super.proc(attacker, defender, damage);
-
-        Hero hero = (Hero) attacker;
-        if (hero.rangedWeapon == null && stackable) {
-            if (quantity == 1) {
-                doUnequip(hero, false, false);
-            } else {
-                detach(null);
-            }
-        }
-    }
-
     //TODO Strength should only play a limited part in gun wielding
     @Override
     public String info() {

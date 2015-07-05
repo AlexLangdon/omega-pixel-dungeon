@@ -24,7 +24,7 @@ import com.watabou.pixeldungeon.actors.buffs.Cripple;
 import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 import com.watabou.utils.Random;
 
-public class Javelin extends MissileWeapon {
+public class Javelin extends ThrowingWeapon {
 
     {
         name = "javelin";

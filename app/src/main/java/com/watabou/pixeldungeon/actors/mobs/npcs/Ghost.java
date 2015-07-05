@@ -39,7 +39,7 @@ import com.watabou.pixeldungeon.items.armor.ClothArmor;
 import com.watabou.pixeldungeon.items.quest.DriedRose;
 import com.watabou.pixeldungeon.items.quest.RatSkull;
 import com.watabou.pixeldungeon.items.weapon.Weapon;
-import com.watabou.pixeldungeon.items.weapon.ranged.missiles.MissileWeapon;
+import com.watabou.pixeldungeon.items.weapon.ranged.missiles.ThrowingWeapon;
 import com.watabou.pixeldungeon.levels.SewerLevel;
 import com.watabou.pixeldungeon.scenes.GameScene;
 import com.watabou.pixeldungeon.sprites.FetidRatSprite;
@@ -284,7 +284,7 @@ public class Ghost extends NPC {
                     Item another;
                     do {
                         another = (Weapon) Generator.random(Generator.Category.WEAPON);
-                    } while (another instanceof MissileWeapon);
+                    } while (another instanceof ThrowingWeapon);
 
                     if (weapon == null || another.level > weapon.level) {
                         weapon = (Weapon) another;

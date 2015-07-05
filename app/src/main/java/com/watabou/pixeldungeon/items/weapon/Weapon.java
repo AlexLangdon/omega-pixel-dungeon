@@ -32,12 +32,12 @@ import com.watabou.pixeldungeon.items.weapon.enchantments.Poison;
 import com.watabou.pixeldungeon.items.weapon.enchantments.Shock;
 import com.watabou.pixeldungeon.items.weapon.enchantments.Slow;
 import com.watabou.pixeldungeon.items.weapon.enchantments.Tempering;
+import com.watabou.pixeldungeon.items.weapon.ranged.missiles.ThrowingWeapon;
 import com.watabou.pixeldungeon.sprites.ItemSprite;
 import com.watabou.pixeldungeon.utils.GLog;
 import com.watabou.pixeldungeon.utils.Utils;
 import com.watabou.pixeldungeon.actors.Char;
 import com.watabou.pixeldungeon.actors.hero.Hero;
-import com.watabou.pixeldungeon.items.weapon.ranged.missiles.MissileWeapon;
 import com.watabou.utils.Bundlable;
 import com.watabou.utils.Bundle;
 import com.watabou.utils.Random;
@@ -111,7 +111,7 @@ public class Weapon extends KindOfWeapon {
 
         int encumbrance = STR - hero.STR();
 
-        if (this instanceof MissileWeapon) {
+        if (this instanceof ThrowingWeapon) {
             switch (hero.heroClass) {
                 case WARRIOR:
                     encumbrance += 3;
@@ -132,7 +132,7 @@ public class Weapon extends KindOfWeapon {
     public float speedFactor(Hero hero) {
 
         int encumrance = STR - hero.STR();
-        if (this instanceof MissileWeapon && hero.heroClass == HeroClass.HUNTRESS) {
+        if (this instanceof ThrowingWeapon && hero.heroClass == HeroClass.HUNTRESS) {
             encumrance -= 2;
         }
 

@@ -37,7 +37,7 @@ public class FirearmWeapon extends RangedWeapon {
     }
 
     public void doShoot(Hero hero) {
-
+        
         if (quantity <= 0) {
             GLog.w(TXT_NO_AMMO);
             return;
@@ -53,13 +53,9 @@ public class FirearmWeapon extends RangedWeapon {
         curItem = this;
 
         if (action.equals(AC_SHOOT) && isEquipped(hero)) {
-
             doShoot(hero);
-
         } else {
-
             super.execute(hero, action);
-
         }
     }
 
@@ -82,7 +78,6 @@ public class FirearmWeapon extends RangedWeapon {
 
     }
 
-    //TODO Make firing an unequipped gun impossible to balance with the thorwing knives etc
     @Override
     public ArrayList<String> actions(Hero hero) {
         ArrayList<String> actions = super.actions(hero);
@@ -92,14 +87,12 @@ public class FirearmWeapon extends RangedWeapon {
         return actions;
     }
 
-    //TODO Allow throwing gun
     public void onShoot(int cell) {
 
         Char enemy = Actor.findChar(cell);
         if (enemy == null || enemy == Item.curUser || !Item.curUser.fireFirearm(enemy, this)) {
             miss(cell);
         }
-
     }
 
     @Override
@@ -128,8 +121,8 @@ public class FirearmWeapon extends RangedWeapon {
         /*
         // FIXME!!!
         float delay = TIME_TO_THROW;
-        if (this instanceof MissileWeapon) {
-            delay *= ((MissileWeapon) this).speedFactor(user);
+        if (this instanceof ThrowingWeapon) {
+            delay *= ((ThrowingWeapon) this).speedFactor(user);
             if (enemy != null) {
                 SnipersMark mark = user.buff(SnipersMark.class);
                 if (mark != null) {
@@ -153,7 +146,6 @@ public class FirearmWeapon extends RangedWeapon {
                 });
     }
 
-    //TODO Text information to explain that you cannot shoot an empty clip
     public void castShooter(final Hero user, int dst) {
 
         final int cell = Ballistica.cast(user.pos, dst, false, true);
@@ -169,8 +161,8 @@ public class FirearmWeapon extends RangedWeapon {
 
         /*
         // FIXME!!!
-        if (this instanceof MissileWeapon) {
-            delay *= ((MissileWeapon) this).speedFactor(user);
+        if (this instanceof ThrowingWeapon) {
+            delay *= ((ThrowingWeapon) this).speedFactor(user);
             if (enemy != null) {
                 SnipersMark mark = user.buff(SnipersMark.class);
                 if (mark != null) {
@@ -191,9 +183,15 @@ public class FirearmWeapon extends RangedWeapon {
 
     private void fireShots(final Hero user,final int cell,final float finalDelay) {
 
-        shotsFired++;
+        if(quantity <= 0) {
+            user.spendAndNext(finalDelay);
+            return;
+        }
+
         FirearmWeapon detachWeap =
                 (FirearmWeapon) FirearmWeapon.this.detach(user.belongings.backpack);
+        shotsFired++;
+
         detachWeap.onShoot(cell);
 
         ((MissileSprite) user.sprite.parent.recycle(MissileSprite.class)).
@@ -211,20 +209,6 @@ public class FirearmWeapon extends RangedWeapon {
                 });
 
     }
-
-    /*private void multiShotCall(Hero user, int cell, float finalDelay)
-    {
-        if(shotsFired < rateOfFire) {
-            rateOfFire++;
-            FirearmWeapon detachWeap =
-                    (FirearmWeapon) FirearmWeapon.this.detach(user.belongings.backpack);
-            detachWeap.onShoot(cell);
-        }
-        else {
-            user.spendAndNext(finalDelay);
-        }
-    }
-*/
 
     protected CellSelector.Listener shooter = new CellSelector.Listener() {
         @Override

@@ -24,7 +24,7 @@ import com.watabou.pixeldungeon.levels.Level;
 import com.watabou.pixeldungeon.levels.Room;
 import com.watabou.pixeldungeon.items.Generator;
 import com.watabou.pixeldungeon.items.Gold;
-import com.watabou.pixeldungeon.items.weapon.ranged.missiles.MissileWeapon;
+import com.watabou.pixeldungeon.items.weapon.ranged.missiles.ThrowingWeapon;
 import com.watabou.pixeldungeon.levels.Terrain;
 import com.watabou.utils.Random;
 
@@ -75,7 +75,7 @@ public class RatKingPainter extends Painter {
         switch (Random.Int(10)) {
             case 0:
                 prize = Generator.random(Generator.Category.WEAPON);
-                if (prize instanceof MissileWeapon) {
+                if (prize instanceof ThrowingWeapon) {
                     prize.quantity(1);
                 } else {
                     prize.degrade(Random.Int(3));

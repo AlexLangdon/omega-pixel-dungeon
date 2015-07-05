@@ -145,6 +145,7 @@ public enum HeroClass {
         AutoRifle test2 = new AutoRifle(16);
         test2.identify().collect();
 
+
         (hero.belongings.weapon = new WandOfFirebolt()).identify();
 
         QuickSlot.primaryValue = Handgun.class;

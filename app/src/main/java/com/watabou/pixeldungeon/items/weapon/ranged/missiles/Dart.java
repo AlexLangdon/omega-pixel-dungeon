@@ -21,7 +21,7 @@ import com.watabou.pixeldungeon.items.Item;
 import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 import com.watabou.utils.Random;
 
-public class Dart extends MissileWeapon {
+public class Dart extends ThrowingWeapon {
 
     {
         name = "dart";

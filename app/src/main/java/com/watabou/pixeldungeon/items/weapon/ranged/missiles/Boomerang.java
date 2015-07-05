@@ -24,7 +24,7 @@ import com.watabou.pixeldungeon.items.Item;
 import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 import com.watabou.pixeldungeon.sprites.MissileSprite;
 
-public class Boomerang extends MissileWeapon {
+public class Boomerang extends ThrowingWeapon {
 
     {
         name = "boomerang";
