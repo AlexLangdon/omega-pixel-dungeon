@@ -64,6 +64,7 @@ public class Bestiary {
 
         switch (depth) {
             case 1:
+                //Rat is 100% on standard
                 chances = new float[]{0,1};
                 classes = new Class<?>[]{Rat.class,Thug.class};
                 break;

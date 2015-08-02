@@ -83,8 +83,12 @@ import com.watabou.pixeldungeon.items.wands.WandOfSlowness;
 import com.watabou.pixeldungeon.items.wands.WandOfTelekinesis;
 import com.watabou.pixeldungeon.items.wands.WandOfTeleportation;
 import com.watabou.pixeldungeon.items.weapon.Weapon;
+import com.watabou.pixeldungeon.items.weapon.melee.AugFist;
 import com.watabou.pixeldungeon.items.weapon.melee.BattleAxe;
+import com.watabou.pixeldungeon.items.weapon.melee.CombatKnife;
+import com.watabou.pixeldungeon.items.weapon.melee.Crowbar;
 import com.watabou.pixeldungeon.items.weapon.melee.Dagger;
+import com.watabou.pixeldungeon.items.weapon.melee.EnergyBlade;
 import com.watabou.pixeldungeon.items.weapon.melee.Glaive;
 import com.watabou.pixeldungeon.items.weapon.melee.Knuckles;
 import com.watabou.pixeldungeon.items.weapon.melee.Longsword;
@@ -228,8 +232,12 @@ public class Generator {
                 Boomerang.class,
                 Tamahawk.class,
                 Handgun.class,
-                AutoRifle.class};
-        Category.WEAPON.probs = new float[]{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1};
+                AutoRifle.class,
+                Crowbar.class,
+                EnergyBlade.class,
+                AugFist.class,
+                CombatKnife.class};
+        Category.WEAPON.probs = new float[]{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1};
 
         Category.ARMOR.classes = new Class<?>[]{
                 ClothArmor.class,
@@ -289,18 +297,16 @@ public class Generator {
 
     public static Item random(Category cat) {
         try {
-            return randomWeapon();
+            categoryProbs.put(cat, categoryProbs.get(cat) / 2);
 
-            //categoryProbs.put(cat, categoryProbs.get(cat) / 2);
-
-            /*switch (cat) {
+            switch (cat) {
                 case ARMOR:
                     return randomArmor();
                 case WEAPON:
                     return randomWeapon();
                 default:
                     return ((Item) cat.classes[Random.chances(cat.probs)].newInstance()).random();
-            }*/
+            }
 
         } catch (Exception e) {
 

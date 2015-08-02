@@ -42,6 +42,10 @@ public class ItemSpriteSheet {
     public static final int WAR_HAMMER = 23;
     public static final int SPEAR = 29;
     public static final int GLAIVE = 30;
+    public static final int CROWBAR = 131;
+    public static final int ENERGYBLADE = 132;
+    public static final int AUGFIST = 133;
+    public static final int COMBATKNIFE = 134;
 
     // Missiles
     public static final int SHURIKEN = 15;

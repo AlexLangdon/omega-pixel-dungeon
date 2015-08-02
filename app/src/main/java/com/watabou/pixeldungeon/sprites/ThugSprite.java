@@ -15,7 +15,7 @@ public class ThugSprite extends MobSprite {
         texture(Assets.THUGS);
         TextureFilm film = new TextureFilm(texture, 16, 16);
 
-        idle = new Animation(1, true);
+        idle = new Animation(3, true);
         idle.frames(film, 4, 4, 4, 4, 4, 4, 18, 19, 20, 21, 20, 19, 18, 4);
 
         run = new Animation(18, false);

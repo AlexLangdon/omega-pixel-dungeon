@@ -30,7 +30,11 @@ import com.watabou.pixeldungeon.items.scrolls.ScrollOfMagicMapping;
 import com.watabou.pixeldungeon.items.wands.WandOfFirebolt;
 import com.watabou.pixeldungeon.items.wands.WandOfMagicMissile;
 import com.watabou.pixeldungeon.items.weapon.Weapon;
+import com.watabou.pixeldungeon.items.weapon.melee.AugFist;
+import com.watabou.pixeldungeon.items.weapon.melee.CombatKnife;
+import com.watabou.pixeldungeon.items.weapon.melee.Crowbar;
 import com.watabou.pixeldungeon.items.weapon.melee.Dagger;
+import com.watabou.pixeldungeon.items.weapon.melee.EnergyBlade;
 import com.watabou.pixeldungeon.items.weapon.melee.Knuckles;
 import com.watabou.pixeldungeon.items.weapon.melee.ShortSword;
 import com.watabou.pixeldungeon.items.weapon.ranged.firearms.AutoRifle;
@@ -145,6 +149,17 @@ public enum HeroClass {
         AutoRifle test2 = new AutoRifle(16);
         test2.identify().collect();
 
+        Crowbar test3 = new Crowbar();
+        test3.identify().collect();
+
+        EnergyBlade test4 = new EnergyBlade();
+        test4.identify().collect();
+
+        AugFist test5 = new AugFist();
+        test5.identify().collect();
+
+        CombatKnife test6 = new CombatKnife();
+        test6.identify().collect();
 
         (hero.belongings.weapon = new WandOfFirebolt()).identify();
 
